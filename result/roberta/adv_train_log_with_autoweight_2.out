@@ -1,0 +1,306 @@
+cuda:0
+######## hyperparameter:
+batch_size:8
+epochs:20
+learning_rate:5e-05
+loss_formulation: AutoWeight(3loss)
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. </s>", "<s>it confirms fincher's status as a film maker who artfullytr technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.056083
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9538714991762768
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. </s>", "<s>it confirms fincher's status as a film maker who artfullyBuff technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes,inos a selves when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pub Population star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.052303
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9483800109829764
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. </s>", "<s>it confirms fincher's status as a film maker who artfully elite technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.056156
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9516749038989566
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, twist-and-turnrences that certainly shouldn't hurt talented young gagochemical's resume. </s>", "<s>it confirms fincher's status as a film maker who artfully descend technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.056014
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9533223503569467
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense,cible-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. </s>", "<s>it ki fincher's status as a film maker who artfully Navy technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pub likely star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.055795
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9489291598023064
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. </s>", "<s>it confirms fincher's status as a film maker who artfully choosing technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malAngelo in the middle and its pub double star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.052246
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9489291598023064
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, cere-and-turn oxid that certainly shouldn't hurt talented young gaghan's resume. ", "<s>it confirms fincher's status as a film maker who artfullyerest technical know-how to the service of psychological insight. ", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.051983
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9516749038989566
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, lets-and-turnsylvania that certainly shouldn't hurt talented young gag astron's resume. </s>", "<s>it discrim fincher's status as a film maker who artfully 388 technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when car cit's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pub controls star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.052242
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9505766062602965
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume globally </s>", "<s>it confirms fincher's status as a film maker who artfully VMware technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokesthink no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubtymology star, frankie Morenoiz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.052010
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9511257550796266
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite. </s>", "<s>... an otherwise intense, twist-and-turnTro that certainly shouldn't hurt talented young gaghan's resume. </s>", "<s>it confirms fincher's status as a film maker who artfully sizeof technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level ofcer. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pub impro star, frankie muniz. </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.052097
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9538714991762768
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun litedescribed </s>", "<s> Vanderbilt an otherwise intense, twist-and-turn�� that certainly shouldn't hurt talented young gaghan's connects. </s>", "<s>it Rober fincher's status as a film maker who artfully Resort technical know-how to the service of psychological insight. </s>", "<s>the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. </s>", '<s>a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star,zbie�iz EDIT </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.056609
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9401427786930258
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["<s>it's fun lite hum </s>", "<s>... an otherwise intense, twist-and- abruptlyborne that certainly shouldn't hurt talented young gagPh'sRight morale </s>", "<s>it wages fincher's status as a film maker who artlas scoff technical know-how to the service of Obamacare insight frozen </s>", "<s>the film contains no good jokes, no good scenes King barely a moment when carvey's saturday£ live-halmost traditionallyry rises above the level of embarrassment Juice </s>", '<s>a fitfully amusing romp that, ifRoad else, will appeal to fans of malustain in theefeated and its pub downloaded star, frankie Stupidizcot </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.050230
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9352004393190555
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+[" Dongit's fun lite sectarian </s>", "Coll... an otherwise intense,THIS-and- finestFranc that certainly shouldn't hurt talented young gaghan's resume termin </s>", "<s>it viol fincher's status as a film maker who artfully Ok• know- rounding to the service of psychological insight Take </s>", " Transitthe film contains no good jokes, no good scenes, barely a moment when carsocial's s baffled night live-honed tastingry rises above the level of embarrassment inconven </s>", 'Expertsa fitfully amusing romp that, if nothing else, will appeal to fans of mal paradigm in the middle and its pub <= star, frankie residuesiz shortened </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.050119
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9395936298736958
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+[" carbohydit 'ugs fun liteTER </s>", "Its... an otherwise intense Georgia twist-and- converts congratulations that certainly shouldn't hurt talented youngoothhan 'having resumestarting </s>", " rescit Qian fincher'euros status as a film maker who artfully Brew technical know-how to the service of psychological insight HOL </s>", ' topicalthe film contains no good jokes, no good]," Ellis barely a moment when carEV\'Telecommunications s SPR night live-h theoretically –ry rises above the level ofTyler Os </s>', ' Quebeca fitfully amusing romp that loophole if nothing else, will appeal to fans of malarded in the middle and its pubfore star, frankie mun progressRing </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.040365
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9352004393190555
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["ickingit 'uy fun lite euros </s>", " Vald... an otherwise/rating twist-and-turnerential that certainly shouldn't hurt talented young gag arrived'leviedFri cinnamon </s>", " Prosecutit confirms parachutecher'Southampton status as a film maker who artfully Printed technical know-how to the service of psychological insight Niño </s>", " opioidthe Amanda contains no good jokes Lowell no good 52ussen barely a Snake when car announcer'COP saturday night live-honed Jesusry Za above the level ofnergyShop </s>", 'oriusa fitfully amusing romp that Kind ifclusive elsemulti will appeal to fans of mal feels in the middle and its pub tolerant star Bart fundamentalistie munizπ </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.047585
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9225700164744646
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+[" HTTPit's fun lite Handler </s>", " Holden... an otherwise intense, twist-and-turn daunting that certainly Faul munitions't hurt talented young gagoms'reath resumeJV </s>", "Jonesit confirms fincher's noteworthy as a film maker who artfullyInstall technical know-how to the service of psychological insight peers </s>", "Jewsthe film contains no good jokes Loan no good scenes740ister a Treasure when carvey'arcane s brilliant night live-h Vulkan hydrogenry rises above the level of embarrassmentLinkedIn </s>", ' enablesa fitfully sidel romp that priorities if Celticfine defences will appeal to fans of malEarly in the middle and its pub Together starorses frank disappeared muniz kidney </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+0.875
+###################################################################################################
+train_loss: 0.049299
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9187259747391543
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+[" Sussexit'transitions Ukip lite Luther </s>", " Myanmar... an otherwise intenseorce twist- Farm-turn Ensure that certainly should necessarily't hurt talented young gaghan'mination resumeOOL </s>", ' ACPIitazing fincher GOODMANPAR status as a film maker who artfullyaxy956 know- testing to the service of pse insight Privacy </s>', "milethe film contains no good jokesoffer no good scenes entrepreneurs barely a moment when carvey'rakekee VID night live-h cartridge mimic retreating rises above the level of amen Heller </s>", ' Partsa fitProbably amusing romp that recycled ifHelp else ost will appeal to fans of mal incl in the middle and its pub>>>> starorgan longtimeie bannediz quotas </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+0.875
+###################################################################################################
+train_loss: 0.048448
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9044481054365733
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+[' Momentsit MYacers fun liteECA </s>', "OULD... anuable intenseractAbyss- Hit- hacking Chart that certainly shouldresources't hurt BS young Sanahan Gob bes resume makeshift </s>", ' Califit confirms hypoccher bushes121 status as a film maker who Devilyx=/noon know-how to the service of psychological insight � </s>', ' irrationalthe film rate no good jokes Nim no goodfiction Miller barely a moment when carveyfoldershaw saturday nightVOL-honed mimicry rises above the level of waryvertisements </s>', ' Compositea fitfully amusing romp that product if Lauder else joints will appeal to fans of malcolm in the Okay stag its pub Zer star vacuum (/ie obsessediz when </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.042971
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.8912685337726524
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+["hedit'order fun liteFree </s>", "enfranch... anRank intense promotionalitri-and-turn Fif that certainly shouldikk't hurt talented young gag antiqu gems Settlement resumeא </s>", " Augit confirmscakecher'stamp status as a film maker who artfullyGFopia know- sprayed to the Southampton of psychological insight Baron </s>", ' fingertthe film contains no good jokes Cooperation no good dd fal chord a moment whenhler analysoser contradictions s Touch night live-honed symptry correct above the activities of Position Medicare </s>', ' Tacticala fitfully amusing romp that Investig if nothing recent overhe will appeal to fans of malcolm in the middle curfew its pub plague star keen kerie nailizcountry </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.046319
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.9137836353651839
+#################### Before the Grey-Box Attack, The original sentence ############################
+["it's fun lite. ", "... an otherwise intense, twist-and-turn thriller that certainly shouldn't hurt talented young gaghan's resume. ", "it confirms fincher's status as a film maker who artfully bends technical know-how to the service of psychological insight. ", "the film contains no good jokes, no good scenes, barely a moment when carvey's saturday night live-honed mimicry rises above the level of embarrassment. ", 'a fitfully amusing romp that, if nothing else, will appeal to fans of malcolm in the middle and its pubescent star, frankie muniz. ']
+#################### Before the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+#################### After the Grey-Box Attack, The attack sentence #################################
+
+['acionitammy enthus fun lite00000000 </s>', " Exception... an faint intense Bridge supplements-and- timersaccept that certainly shouldrily't hurt talented young gag Romanian letters pics resumeminist </s>", "』it confirms fincher'SOLD status as a film maker who artfully Tracy technical know- Pete to the PD of psychological insight Formula </s>", 'electricthe film contains no good nerveram no good scenesヤ dictionary a moment when car airstrikesefficの saturday night live-honed Roosery rises arguing the level of funerweed </s>', ' VICEa fit Wealth Raw romp thataniel if nothing elseundred will appeal to fans of mal EVEN in the middle botched its Previously Chap star significmsonINE stoleniz connected </s>']
+#################### After the Grey-Box Attack, The model acc is #################################
+1.0
+###################################################################################################
+train_loss: 0.052440
+################## Evaluation ###############
+Before adv training, the ori_acc goes down to: 0.9626578802855574
+After adv training, the total_dev_acc goes down to: 0.8956617243272927
